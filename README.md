@@ -347,9 +347,3 @@ npm pack --dry-run
 # Publish
 npm publish
 ```
-
----
-
-## License
-
-MIT — adapted from [cocoa](https://github.com/hiaaryan/cocoa) (MIT).
