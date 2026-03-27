@@ -1,13 +1,5 @@
 # cocoa-rn
 
-# cocoa-rn
-
-# cocoa-rn
-
-A React Native project.
-
-# cocoa-rn
-
 A React Native Library that brings the [cocoa](https://cocoa.crunux.me/) toast component to your app.
 
 ---
