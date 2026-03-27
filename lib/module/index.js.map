@@ -1,0 +1,1 @@
+{"version":3,"names":["cocoa","Toaster","Toast","store","useToastStore"],"sourceRoot":"../../src","sources":["index.ts"],"mappings":"AAAA;AACA,SAASA,KAAK,QAAQ,SAAS;;AAE/B;AACA,SAASC,OAAO,QAAQ,WAAW;AAGnC,SAASC,KAAK,QAAQ,SAAS;;AAG/B;;AAWA;AACA,SAASC,KAAK,QAAQ,SAAS;AAC/B,SAASC,aAAa,QAAQ,iBAAiB","ignoreList":[]}

@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+*.log
+coverage/
+.expo/
+dist/
+web-build/
+
+# Example app
+example/node_modules/
+example/android/
+example/ios/
+example/.expo/

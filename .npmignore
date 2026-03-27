@@ -1,0 +1,7 @@
+example/
+__tests__/
+.eslintrc.js
+tsconfig.json
+tsconfig.build.json
+.github/
+*.log
