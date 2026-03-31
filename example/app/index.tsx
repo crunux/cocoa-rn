@@ -239,7 +239,7 @@ export default function HomeScreen() {
           </Text>
           <Text style={[styles.code, isDark && styles.codeLight]}>
             {[
-              "import { cocoa, Toaster } from 'cocoa-rn';",
+              "import { cocoa, Toaster } from '@crunux/cocoa-rn';",
               '',
               '// In your root layout:',
               '<Toaster position="top-right" />',

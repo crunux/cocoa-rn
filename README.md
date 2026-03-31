@@ -30,9 +30,9 @@ A React Native Library that brings the [cocoa](https://cocoa.crunux.me/) toast c
 ## Installation
 
 ```bash
-npm install cocoa-rn
+npm install @crunux/cocoa-rn
 # or
-yarn add cocoa-rn
+yarn add @crunux/cocoa-rn
 ```
 
 No additional setup. No native modules to link.
@@ -45,7 +45,7 @@ No additional setup. No native modules to link.
 
 ```tsx
 // App.tsx (bare RN) or _layout.tsx (Expo Router)
-import { Toaster } from 'cocoa-rn';
+import { Toaster } from '@crunux/cocoa-rn';
 
 export default function App() {
   return (
@@ -61,7 +61,7 @@ export default function App() {
 ### 2. Fire toasts from anywhere
 
 ```tsx
-import { cocoa } from 'cocoa-rn';
+import { cocoa } from '@crunux/cocoa-rn';
 
 cocoa.success({ title: 'File saved!' });
 cocoa.error({ title: 'Upload failed', description: 'Check your connection.' });
@@ -98,6 +98,7 @@ cocoa.info({ title: 'Update available' });
 | `position` | `CocoaPosition` | Toaster default | Per-toast position override |
 | `duration` | `number \| null` | `6000` | Auto-dismiss ms. `null` = sticky |
 | `icon` | `ReactNode` | — | Custom icon replacing the default badge |
+| `colorIcon` | `string` | — | Custom icon color |
 | `fill` | `string` | `'#FFFFFF'` | Toast background color |
 | `styles` | `CocoaStyles` | — | StyleSheet overrides for sub-elements |
 | `roundness` | `number` | `16` | Border radius in pixels |
@@ -323,19 +324,4 @@ To run the example:
 cd example
 npm install
 npx expo start
-```
-
----
-
-## Publishing to npm
-
-```bash
-# Build
-npm run build
-
-# Dry-run to see what will be published
-npm pack --dry-run
-
-# Publish
-npm publish
 ```
