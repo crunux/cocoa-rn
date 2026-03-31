@@ -4,7 +4,8 @@ A React Native Library that brings the [cocoa](https://cocoa.crunux.me/) toast c
 
 ---
 ## Preview
-![Preview](./preview.gif){:height="500px" width="250px"}
+
+<img src="./preview.gif" width="250" height="500">
 
 > An opinionated toast component for React Native.
 > Spring physics and a minimal API — beautiful by default.
